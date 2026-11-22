@@ -1,0 +1,9 @@
+# Original full-size photos (the site uses the optimized copies in assets/img)
+/*.jpg
+/*.jpeg
+
+# Local tooling
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db
