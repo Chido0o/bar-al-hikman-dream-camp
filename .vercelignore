@@ -1,0 +1,7 @@
+# Keep the upload to the website files only
+/*.jpg
+/*.jpeg
+.claude
+README.md
+.env*
+.vercel

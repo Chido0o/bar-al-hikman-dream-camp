@@ -3,7 +3,7 @@
 Website for **Dream Camp**, a beach camp of A-frame bungalows on the white sands of Bar Al Hikman, Oman.
 Guests book directly on WhatsApp (+968 9113 2705).
 
-**Live site:** https://chido0o.github.io/bar-al-hikman-dream-camp/
+**Live site:** https://bar-al-hikman-dream-camp.vercel.app (also mirrored at https://chido0o.github.io/bar-al-hikman-dream-camp/)
 
 It's a static site with no build step: plain HTML, CSS and JavaScript.
 
@@ -39,6 +39,13 @@ Then open the address it prints.
 
 ## Publish
 
-The site is published with GitHub Pages from the `main` branch (root folder).
-Every push to `main` updates the live site within a minute or two.
-It also works on any other static host (Netlify, Vercel, Cloudflare Pages).
+**Vercel (main address):** the project `bar-al-hikman-dream-camp` is deployed with the Vercel CLI. From this folder:
+
+```bash
+vercel deploy --prod
+```
+
+`.vercelignore` keeps the original photos, the README and local env files out of the upload.
+To deploy on every push instead, give the Vercel GitHub app access to this repo, then run `vercel git connect`.
+
+**GitHub Pages (mirror):** published from the `main` branch (root folder). Every push to `main` updates it within a minute or two.
