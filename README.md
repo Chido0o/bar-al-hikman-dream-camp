@@ -3,6 +3,8 @@
 Website for **Dream Camp**, a beach camp of A-frame bungalows on the white sands of Bar Al Hikman, Oman.
 Guests book directly on WhatsApp (+968 9113 2705).
 
+**Live site:** https://chido0o.github.io/bar-al-hikman-dream-camp/
+
 It's a static site with no build step: plain HTML, CSS and JavaScript.
 
 ## What's on the page
@@ -37,5 +39,6 @@ Then open the address it prints.
 
 ## Publish
 
-The site works on any static host (GitHub Pages, Netlify, Vercel, Cloudflare Pages).
-For GitHub Pages, go to **Settings → Pages**, choose the `main` branch and the `/ (root)` folder, and save.
+The site is published with GitHub Pages from the `main` branch (root folder).
+Every push to `main` updates the live site within a minute or two.
+It also works on any other static host (Netlify, Vercel, Cloudflare Pages).
